@@ -2,6 +2,8 @@
 
 A deep learning-based fake news detection application using a **Dual-Branch LSTM Neural Network** trained on the WELFake dataset. This project achieves **95.16% accuracy** and **0.9887 ROC-AUC score** in classifying news articles as real or fake.
 
+# DEMO Link = https://fakenews-detectionn.streamlit.app/
+
 ## 📊 Model Performance
 
 | Metric | Value |
