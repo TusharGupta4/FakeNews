@@ -23,7 +23,7 @@ st.set_page_config(
 # ── LOAD MODEL & TOKENIZER ───────────────────────────────────
 @st.cache_resource
 def load_artifacts():
-    model = load_model('fake_news_model.keras')
+    model = load_model('fake_news_model.keras',compile=False)
     with open('tokenizer.pkl', 'rb') as f:
         tokenizer = pickle.load(f)
     return model, tokenizer
